@@ -1,0 +1,19 @@
+<project>
+    <parent>
+        <groupId>com.rally.example</groupId>
+        <artifactId>TemplateProcessor</artifactId>
+        <version>1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>RallyCommandLine</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.rally.example</groupId>
+            <artifactId>Processor</artifactId>
+            <version>1</version>
+            <type>jar</type>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>
